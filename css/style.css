@@ -1,0 +1,43 @@
+html{ 
+    font-size: 3rem;
+    background: url('https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    
+    
+}
+.text-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    padding: .5rem;
+}
+.clock{
+   
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.hand{
+    width: 50%;
+    background-color: rgb(88, 24, 238);
+    height: .3rem;
+   top: 50%;
+   position: absolute;
+   transform-origin: 100%;
+   transform: rotate(45deg);
+   border-radius: .2rem;
+   transition: all 1s ease;
+
+}
+
+.hour-hand{
+    width: 40%;
+    left: 10%;
+    background-color: aqua;
+}
